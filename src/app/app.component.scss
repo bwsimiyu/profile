@@ -1,0 +1,79 @@
+.main {
+  margin-top: 6%;
+  .image {
+    width: 16vw; height: 16vw; background-color: white; margin: 2%; border-radius: 50%;
+    background-image: url('../assets/bwsimiyu.jpg'); background-size: cover;
+    background-position: center;
+    @media screen and (max-width: 768px) {
+      width: 24vw; height: 24vw;
+    }
+    @media screen and (max-width: 568px) {
+      width: 36vw; height: 36vw;
+    }
+  }
+  .divider {
+    width: 4px; background-color: crimson; min-height: 30vh;
+  }
+  .intro {
+    margin: 2%;
+    h5 {
+      color: rgb(255, 255, 255);
+    }
+    h1 {
+      background: -webkit-gradient(linear, left top, right top,
+      from(rgb(195, 195, 195)), color-stop(25%, rgb(160, 160, 160)), color-stop(50%, rgb(0, 255, 255)),
+      color-stop(75%, rgb(220, 20, 60)), to(rgb(245, 15, 61)));
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+}
+.summary {
+  margin: 2%;
+  h3 {
+    text-align: center;
+    background: -webkit-gradient(linear, left top, right top,
+    from(#c3c3c3), color-stop(25%, #999999), color-stop(50%, #e7e7e7),
+    color-stop(75%, #f5f5f5), to(#ffffff));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+.social {
+  margin: 2%;
+  button {
+    background-color: rgb(16, 16, 16); margin: 0.5%;
+  }
+}
+.skills {
+  .langs {
+    margin: 2%; background-color: rgb(16, 16, 16); border-radius: 8px; color: #f5f5f5;
+  }
+  .frameworks {
+    margin: 2%; background-color: rgb(16, 16, 16); border-radius: 8px; color: #f5f5f5;
+  }
+  .automation {
+    margin: 2%; background-color: rgb(16, 16, 16); border-radius: 8px; color: #f5f5f5;
+  }
+}
+
+.footer-container {
+  padding-top: 3.6%; padding-bottom: 2.4%;
+  .footer-row {
+    mat-card {
+      background-color: rgba(0, 0, 0, 0);
+      box-shadow: none; border-radius: 0;
+      mat-card-title {
+        font-size: 1.6em;
+      }
+      mat-card-subtitle {
+        font-size: 1.2em; margin: 4px;
+        a {
+          .link {
+            color: #18ffff !important;
+          }
+        }
+      }
+    }
+  }
+}
