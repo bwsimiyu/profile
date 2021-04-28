@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'bwsimiyu';
+
+  toLinkedIn(): void {
+    window.open('https://linkedin.com/in/bwsimiyu');
+  }
+
+  toGithub(): void {
+    window.open('https://github.com/bwsimiyu');
+  }
+
+  toTwitter(): void {
+    window.open('https://twitter.com/bwsimiyu');
+  }
 }
